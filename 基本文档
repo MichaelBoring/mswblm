@@ -1,3 +1,10 @@
+测试链接：
+http://test.mswblm.com/app/index.php?i=2&c=entry&do=Netbar&m=michaelboring_test
+
+php Example：
+	$http = 'http://test.mswblm.com/app/index.php?i=2&c=entry&do=Netbar&m=michaelboring_test';
+	$result = ihttp_post($http, array("data" => json_encode($value)));
+
 
 启动时请求各同步表最大ID
 请求数据格式：
